@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Log In - Amp's Website</title>
+    <link rel="stylesheet" href="Website_Style.css">
+    <script src="userLoginValidation.js"></script>
+</head>
+<body>
+<button class="button" onclick="document.location='Home_Not-Logged-In.html'">< Back</button>
+<center>
+<h1>Log in to your account</h1><br>
+<form name="userLogin" action="Home.html" onsubmit="return userLoginValidation()" method="get">
+<h4>Username : <input type="text" name="username"></h4>
+<h4>Password : <input type="password" name="password"></h4>
+<input class="button" type="button" onClick="(userLoginValidation(this.form))" value="Log in">
+</form>
+</center>
+</body>
+</html>
