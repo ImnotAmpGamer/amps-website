@@ -1,0 +1,2 @@
+# amps-website
+My website :)
