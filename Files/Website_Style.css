@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+}
+h1 {
+    font-family: Courier New, Monospace;
+    font-size: 50px;
+    color: #7FFF00;
+}
+h2 {
+    font-family: Courier New, Monospace;
+    font-size: 35px;
+    color: #7FFF00;
+}
+h4 {
+    font-family: Courier New, Monospace;
+    font-size: 25px;
+    color: #7FFF00;
+}
+li {
+    font-family: Courier New, Monospace;
+    font-size: 20px;
+    color: #7FFF00;
+}
+.button {
+    background-color: #7FFF00;
+    border: 2;
+    border-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-family: Courier New, Monospace;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.server_status-offline {
+    font-family: Courier New, Monospace;
+    font-size: 20px;
+    text-decoration: solid;
+    color: red;
+}
+.server_status-online {
+    font-family: Courier New, Monospace;
+    font-size: 20px;
+    text-decoration: solid;
+    color: green;
+}
+.download-button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, Monospace;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+    background-color: #7FFF00;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  .download-button:active {
+    background-color: #50a000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.server_join-button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, Monospace;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+    background-color: #7FFF00;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  .server_join-button:active {
+    background-color: #50a000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
